@@ -1,0 +1,42 @@
+{
+    "language": "en",
+    "keyActive": "",
+    "DeveloperMode": false,
+    "autoCreateDB": true,
+    "notiGroup": true,
+    "NOTIFICATION": true,
+    "allowInbox": false,
+    "autoClean": true,
+    "commandDisabled": [
+        "sim.js"
+    ],
+    "eventDisabled": [
+        "join.js"
+    ],
+    "EMAIL": "your-email@example.com",
+    "PASSWORD": "your-password",
+    "OTPKEY": "",
+    "BOTNAME": "Abrar Fahim Bot \ud83e\udd16",
+    "PREFIX": "/",
+    "ADMINBOT": [
+        "100000478146113"
+    ],
+    "NDH": [
+        "100000478146113"
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "appstate.json",
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "pauseLog": true,
+        "logLevel": "error",
+        "selfListen": false,
+        "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1"
+    },
+    "version": "1.2.14"
+}
