@@ -1,6 +1,6 @@
 // index.js
-const login = require("fb-chat-api");
-const fs = require("fs-extra");
+require('dotenv').config();
+const cookie = process.env.FB_COOKIE;
 const moment = require("moment-timezone");
 
 // লগইন তথ্য (config.json থেকে নিতে পারো)
